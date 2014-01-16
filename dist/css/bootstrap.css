@@ -4072,7 +4072,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 18px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: transparent;
   border-radius: 1px;
 }
 .breadcrumb > li {
@@ -4080,8 +4080,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #ccc;
-  content: "/\00a0";
+  color: #b4b4b4;
 }
 .breadcrumb > .active {
   color: #999;
