@@ -1,4 +1,4 @@
-/*!
+/*
  * Copyright 2013 Twitter, Inc.
  *
  * Licensed under the Creative Commons Attribution 3.0 Unported License. For
@@ -44,6 +44,17 @@ body {
   padding-top: 50px; /* Account for fixed navbar */
 }
 
+/* FHNW Link Styles  */
+div[role="main"] p > a {
+  text-decoration: underline;
+}
+div[role="main"] p > a:hover {
+  background: #F0F014;
+  color: inherit;
+}
+.btn {
+  text-decoration: none !important;
+}
 /* Keep code small in tables on account of limited space */
 .table code {
   font-size: 13px;
@@ -89,18 +100,9 @@ body {
 .bs-docs-nav {
   background-color: #000;
   border-color: none;
-  box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 .bs-docs-nav .navbar-collapse {
   border-color: #222;
-}
-.bs-docs-nav .navbar-brand {
-  color: #fff;
-  visibility: hidden;
-  width: 180px;
-}
-.navbar-header {
-  background: url(/docs-assets/img/fhnw.png) no-repeat 15px 8px;
 }
 .bs-docs-nav .navbar-nav > li > a {
   color: #fff;
@@ -120,7 +122,9 @@ body {
   background-color: #F0F014;
   border-color: #F0F014;
 }
-
+.navbar-header a {
+  padding: 8px 0 0 10px;
+}
 .breadcrumb > li {
   color: #b4b4b4;
 }
@@ -1249,4 +1253,35 @@ h1[id] {
 .bs-docs-dl-options h4 {
   margin-top: 15px;
   margin-bottom: 5px;
+}
+
+/* FHNW Mobile Navigation hack - Collapsed Background  */
+@media (max-width: 768px) {
+  .bs-navbar-collapse .navbar-nav {
+    margin: 0 -10px;
+  }
+  .bs-navbar-collapse {
+    background: #FFF;
+  }
+  .bs-docs-nav .navbar-nav > li > a {
+    color: inherit;
+    border-bottom: 1px solid #ccc;
+   }
+  .bs-docs-nav .navbar-nav > li > a:hover {
+    background: #f0f014;
+    color: inherit;
+  }
+  .bs-docs-nav .navbar-right li:last-child > a {
+    border-bottom: none;   
+  }
+  .bs-docs-nav .navbar-nav > .active > a, .bs-docs-nav .navbar-nav > .active > a:hover {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+    background-color: transparent;
+  }
+  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
