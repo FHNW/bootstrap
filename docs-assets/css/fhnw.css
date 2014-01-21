@@ -219,11 +219,13 @@ div[role="main"] p > a:hover {
 
 .bs-docs-home,
 .bs-header {
-  color: #F0F014;
+  color: inherit;
   background-color: #563d7c;
   background: #000 url('http://www.fhnw.ch/zusammenbilden/img/lichter_bg_1920.png')  0 -364px;
 }
-
+.bs-header p {
+  color: #F0F014;
+}
 
 /*
  * Homepage
@@ -246,7 +248,9 @@ div[role="main"] p > a:hover {
 .bs-masthead .btn-outline-inverse {
   margin: 10px;
 }
-
+.bs-masthead .lead {
+  color: #F0F014;
+}
 /* Links to project-level content like the repo, Expo, etc */
 .bs-masthead-links {
   margin-top: 20px;
