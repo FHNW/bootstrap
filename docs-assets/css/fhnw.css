@@ -44,14 +44,16 @@ body {
   padding-top: 50px; /* Account for fixed navbar */
 }
 
-/* FHNW Link Styles  */
+/* FHNW Link Styles */ 
 div[role="main"] p > a {
   text-decoration: underline;
+  color: #222;
 }
+/*
 div[role="main"] p > a:hover {
   background: #F0F014;
   color: inherit;
-}
+}*/
 .btn {
   text-decoration: none !important;
 }
@@ -1284,4 +1286,20 @@ h1[id] {
     margin-left: -15px;
     margin-right: -15px;
   }
+}
+
+/* Custom Print-CSS overrides  */
+@media print {
+    body {
+      background: url(docs-assets/img/fhnw.png) no-repeat 0 0;
+    }
+
+    .bs-header {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    .bs-old-docs {
+      border-bottom: none;
+    }
 }

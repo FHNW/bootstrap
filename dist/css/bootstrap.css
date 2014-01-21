@@ -45,10 +45,12 @@ a {
   background: transparent;
 }
 a:focus {
+  color: #222;
   outline: thin dotted;
 }
 a:active,
 a:hover {
+  background: #f0f014;
   outline: 0;
 }
 h1 {
@@ -4372,6 +4374,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
+  background: none;
   border-color: #222;
 }
 .thumbnail .caption {
