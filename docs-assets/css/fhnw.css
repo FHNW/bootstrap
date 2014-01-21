@@ -221,7 +221,7 @@ div[role="main"] p > a:hover {
 .bs-header {
   color: #F0F014;
   background-color: #563d7c;
-  background: #000 url('http://www.fhnw.ch/zusammenbilden/img/lichter_bg_1920.png') -21px -364px;
+  background: #000 url('http://www.fhnw.ch/zusammenbilden/img/lichter_bg_1920.png')  0 -364px;
 }
 
 
@@ -272,7 +272,7 @@ div[role="main"] p > a:hover {
     padding-bottom: 140px;
   }
   .bs-masthead h1 {
-    font-size: 100px;
+    font-size: 60px;
   }
   .bs-masthead .lead {
     margin-right: 25%;
