@@ -15,12 +15,12 @@ port:             9001
 current_version:  3.0.3
 repo:             https://github.com/twbs/bootstrap
 
-download_source:  http://localhost:29001/docs-assets/download/FHNW-Bootstrap-3.0.3.zip
+download_source:  /docs-assets/download/FHNW-Bootstrap-3.0.3.zip
 download_dist:    https://github.com/twbs/bootstrap/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip
 
 blog:             http://blog.getbootstrap.com
 expo:             http://help.fhnw.ch
-cd:               http://www.fhnw.ch/cd
+cd:               http://web.fhnw.ch/cd/corporate-design/cd-manual/neue_medien
 
 cdn_css:          //netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css
 cdn_theme_css:    //netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css
