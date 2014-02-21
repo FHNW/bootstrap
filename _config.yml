@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Server
-base_url:          https://github.com/twbs/bootstrap
+base_url:         http://getbootstrap.com
 destination:      ./_gh_pages
 exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
 port:             9001
@@ -18,7 +18,7 @@ repo:             https://github.com/twbs/bootstrap
 download_source:  /docs-assets/download/FHNW-Bootstrap-3.0.3.zip
 download_dist:    https://github.com/twbs/bootstrap/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip
 
-blog:             http://blog.getbootstrap.com
+blog:             http://blog.getbootstrap
 expo:             http://help.fhnw.ch
 cd:               http://web.fhnw.ch/cd/corporate-design/cd-manual/neue_medien
 
