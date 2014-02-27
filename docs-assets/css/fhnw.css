@@ -11,20 +11,6 @@ body {
   position: relative; /* For scrollyspy */
   padding-top: 50px; /* Account for fixed navbar */
 }
-
-/* FHNW Link Styles */ 
-div[role="main"] p > a {
-  text-decoration: underline;
-  color: #222;
-}
-/*
-div[role="main"] p > a:hover {
-  background: #F0F014;
-  color: inherit;
-}*/
-.btn {
-  text-decoration: none !important;
-}
 /* Keep code small in tables on account of limited space */
 .table code {
   font-size: 13px;
@@ -266,15 +252,6 @@ div[role="main"] p > a:hover {
     text-align: left;
   }
 }
-
-
-/*
- * Page headers
- *
- * Jumbotron-esque headers at the top of every page that's not the homepage.
- */
-
-
 /* Page headers */
 .bs-header {
   padding: 30px 15px 40px; /* side padding builds on .container 15px, so 30px */
@@ -580,7 +557,6 @@ h1[id] {
 .show-grid [class^="col-"] {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #eee;
   border: 1px solid #ddd;
   background-color: #f0f0f0;
   border: 1px solid #dddddd;
@@ -679,10 +655,7 @@ h1[id] {
   padding: 15px 0;
   border-color: #eee;
 }
-.bs-example .fhnw-table-small {
-  font-size: 10px;
-}
-.bs-examp/file-type .table tr:first-child td {
+.bs-example .table tr:first-child td {
   border-top: 0;
 }
 .bs-example-type h1,
@@ -922,11 +895,11 @@ h1[id] {
 .responsive-utilities td {
   text-align: center;
 }
-.responsive-utilities td.is-visible {
+.responsive-utilities .is-visible {
   color: #468847;
   background-color: #dff0d8 !important;
 }
-.responsive-utilities td.is-hidden {
+.responsive-utilities .is-hidden {
   color: #ccc;
   background-color: #f9f9f9 !important;
 }
@@ -1008,7 +981,8 @@ h1[id] {
   word-wrap: break-word; /* Help out IE10+ with class names */
 }
 .bs-glyphicons li:hover {
-  background-color: rgba(86,61,124,.1);
+  background-color: #f0f014;
+  background-color: rgba(240,240,20,.1);
 }
 
 @media (min-width: 768px) {
@@ -1130,6 +1104,7 @@ h1[id] {
 
 /* Pseudo :focus state for showing how it looks in the docs */
 #focusedInput {
+  border-color: #52A8EC;
   border-color: rgba(82,168,236,.8);
   outline: 0;
   outline: thin dotted \9; /* IE6-9 */

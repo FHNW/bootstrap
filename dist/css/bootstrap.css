@@ -1384,6 +1384,11 @@ th {
   vertical-align: top;
   border-top: 1px solid #b4b4b4;
 }
+.table > thead > tr:last-child > td,
+.table > tbody > tr:last-child > td,
+.table > tfoot > tr:last-child > td {
+  border-bottom: 1px solid #222;
+}
 .table > thead > tr > th {
   vertical-align: bottom;
   border-top: 1px solid #222;
@@ -2313,6 +2318,14 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+.fhnw-table-small {
+  font-size: 10px;
+}
+/* FHNW Link Styles */
+div[role="main"] p > a {
+  color: #222;
+  text-decoration: underline;
 }
 .fade {
   opacity: 0;
