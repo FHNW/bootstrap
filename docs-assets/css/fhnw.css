@@ -1039,11 +1039,6 @@ h1[id] {
   margin-bottom: 5px;
 }
 
-/* For the variables, use regular weight */
-#less-section label {
-  font-weight: normal;
-}
-
 /* Downloads */
 .bs-customize-download .btn-outline {
   padding: 20px;
