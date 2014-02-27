@@ -1101,7 +1101,7 @@ h1[id] {
 }
 
 /* Pseudo :focus state for showing how it looks in the docs */
-#focusedInput {
+.focusedInput {
   border-color: #52A8EC;
   border-color: rgba(82,168,236,.8);
   outline: 0;
