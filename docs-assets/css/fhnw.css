@@ -382,7 +382,6 @@ body {
   border-bottom: 1px solid #ccc;
 }
 .bs-sidebar .nav .nav > li a:hover {
-  background: #F0F014 url('/docs-assets/img/list_item.png') no-repeat 20px 10px;
   border-bottom: 1px solid transparent !important;
 }
 .bs-sidebar .nav li:last-child {
