@@ -556,7 +556,6 @@ h1[id] {
 .show-grid [class^="col-"] {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #ddd;
   background-color: #f0f0f0;
   border: 1px solid #dddddd;
 }
