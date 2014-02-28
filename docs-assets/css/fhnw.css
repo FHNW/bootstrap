@@ -53,7 +53,7 @@ body {
  * Turn the `.navbar` at the top of the docs purple.
  */
 
-.bs-docs-nav {
+/*.bs-docs-nav {
   background-color: #000;
   border-color: none;
 }
@@ -78,6 +78,7 @@ body {
   background-color: #F0F014;
   border-color: #F0F014;
 }
+*/
 .navbar-header a {
   padding: 8px 0 0 10px;
 }
@@ -1116,16 +1117,19 @@ h1[id] {
   .bs-navbar-collapse .navbar-nav {
     margin: 0 -10px;
   }
-  .bs-navbar-collapse {
+  .navbar-collapse {
     background: #FFF;
   }
   .bs-docs-nav .navbar-nav > li > a {
     color: inherit;
     border-bottom: 1px solid #ccc;
    }
-  .bs-docs-nav .navbar-nav > li > a:hover {
-    background: #f0f014;
+  .dropdown-menu > li > a:hover {
+    background: #f0f014 !important;
     color: inherit;
+  }
+  .dropdown a.dropdown-toggle:hover {
+    background: #222 !important;
   }
   .bs-docs-nav .navbar-right li:last-child > a {
     border-bottom: none;   
