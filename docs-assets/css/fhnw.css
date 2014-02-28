@@ -1128,7 +1128,7 @@ h1[id] {
     background: #f0f014 !important;
     color: inherit;
   }
-  .dropdown a.dropdown-toggle:hover {
+  .dropdown .dropdown-toggle:hover {
     background: #222 !important;
   }
   .bs-docs-nav .navbar-right li:last-child > a {
